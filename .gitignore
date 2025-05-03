@@ -1,2 +1,2 @@
-./lua/snippets/
-./lsp-old-conf.lua
+lua/snippets/
+lsp-old-conf.lua
