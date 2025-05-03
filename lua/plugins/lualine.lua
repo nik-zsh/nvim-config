@@ -12,8 +12,6 @@ return {
 				section_separators = { left = "", right = "" },
 				disabled_filetypes = {
 					statusline = {
-						-- 'terminal', -- Make sure this line is either commented out or removed
-						-- Add any other filetypes you want to disable for the statusline here
 					},
 					winbar = {},
 				},
