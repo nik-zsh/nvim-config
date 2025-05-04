@@ -9,7 +9,7 @@ return {
 				icons_enabled = true,
 				theme = theme, -- Or your preferred theme
 				component_separators = { left = "", right = "" },
-				section_separators = { left = "", right = "" },
+				section_separators = { left = "", right = "" },
 				disabled_filetypes = {
 					statusline = {
 					},
@@ -28,7 +28,7 @@ return {
 				lualine_a = { "mode" },
 				lualine_b = { "branch", "diff", "diagnostics" },
 				lualine_c = { { "filename", path = 1 } },
-				lualine_x = { "encoding", { "fileformat", symbols = { unix = " ",}}, { "filetype" }
+				lualine_x = { "encoding", { "fileformat", symbols = { unix = "",}}, { "filetype" }
             },
 				lualine_y = { "progress" },
 				lualine_z = { "location" },

@@ -82,6 +82,7 @@ return {
 			--     severity_sort = true
 			-- })
 			lspconfig.clangd.setup({ capabilities = capabilities })
+            lspconfig.marksman.setup({capabilities = capabilities})
 			-- lspconfig.ccls.setup({capabilities = capabilities})
 			-- lspconfig.ccls.setup({})
 			-- lspconfig.vimls.setup({})
