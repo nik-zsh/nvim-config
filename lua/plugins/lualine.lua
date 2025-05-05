@@ -4,6 +4,8 @@ return {
 		local theme = require("lualine.themes.nightfly")
 		theme.normal.c.bg = "None"
 		theme.inactive.c.bg = "None"
+        -- theme.insert.c.bg = "None"   --Uncomment these two if bg changes in insert and command mode
+        -- theme.command.c.bg = "None"
 		require("lualine").setup({
 			options = {
 				icons_enabled = true,
