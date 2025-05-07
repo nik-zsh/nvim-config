@@ -14,6 +14,7 @@ return {
 	},
 	{
 		"neovim/nvim-lspconfig",
+		lazy = false,
 		dependencies = { "jose-elias-alvarez/nvim-lsp-ts-utils" },
 		-- keys = require("after.keys.lsp-keys"),
 		opts = {
@@ -64,8 +65,8 @@ return {
 
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({
-                capabilities = capabilities
-            })
+				capabilities = capabilities,
+			})
 			lspconfig.bashls.setup({})
 			-- lspconfig.rust_analyzer.setup({
 			-- settings = {
@@ -82,7 +83,6 @@ return {
 			--     severity_sort = true
 			-- })
 			lspconfig.clangd.setup({ capabilities = capabilities })
-            lspconfig.marksman.setup({capabilities = capabilities})
 			-- lspconfig.ccls.setup({capabilities = capabilities})
 			-- lspconfig.ccls.setup({})
 			-- lspconfig.vimls.setup({})
